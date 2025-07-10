@@ -1,17 +1,19 @@
 package MustDoPatternProblemsBeforeStartingDsa;
 
-public class pattern14 {
+public class pattern16 {
     static void pattern(int n) {
+        char ch='A';
         for (int i = 0; i < n; i++) {
-            for (char ch = 'A'; ch <= 'A'+i; ch++) {
+            for (int j = 0; j <= i; j++) {
                 System.out.print(ch);
             }
+            ch++;
             System.out.println();
         }
     }
 
     public static void main(String[] args) {
-        pattern14.pattern(5);
+        pattern16.pattern(5);
 
     }
 }
@@ -19,7 +21,7 @@ public class pattern14 {
 // OUTPUT
 // =======
 // A
-// AB
-// ABC
-// ABCD
-// ABCDE
+// BB
+// CCC
+// DDDD
+// EEEEE

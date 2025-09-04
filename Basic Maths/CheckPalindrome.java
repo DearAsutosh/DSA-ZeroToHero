@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class CheckPalindrome {
     static boolean palindrome(int n) {
         int revNum = 0;
         int dup = n;

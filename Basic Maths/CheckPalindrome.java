@@ -7,7 +7,7 @@ public class CheckPalindrome {
         while (n > 0) {
             int ld = n % 10;
             revNum = (revNum * 10) + ld;
-            n = n / 10;
+            n /= 10;
         }
         if (dup == revNum) {
             return true;
@@ -15,6 +15,7 @@ public class CheckPalindrome {
             return false;
         }
     }
+
     public static void main(String[] args) {
         int num;
         System.out.println("Enter a number :");

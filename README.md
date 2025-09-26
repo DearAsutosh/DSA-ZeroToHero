@@ -1,4 +1,4 @@
-# ⚔️ LeetCode-ZeroToHero
+# ⚔️ Data Structure & Algorithm-ZeroToHero
 
 
 Welcome to my digital battleground. 🧠💻  

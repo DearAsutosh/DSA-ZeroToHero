@@ -31,5 +31,5 @@ Watch. Learn. Grind. Repeat. 🔁
 
 ---
 
-**Created by [Asutosh 😀](https://github.com/DearAsutosh)**  
+**Created by [Asutosh ✌️](https://github.com/DearAsutosh)**  
 _“Soch badlo, code badlega.”_ 🚀

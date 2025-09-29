@@ -26,7 +26,7 @@ Watch. Learn. Grind. Repeat. 🔁
 ---
 
 > This is not just a LeetCode repo.  
-> This is **DevSena** ⚡  
+> This is **JavaWithAsh** ⚡  
 > And we don’t quit. We conquer. 🏆
 
 ---

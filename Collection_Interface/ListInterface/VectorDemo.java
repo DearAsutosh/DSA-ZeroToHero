@@ -1,4 +1,4 @@
-package Collection_Framework.ListInterface;
+package Collection_Interface.ListInterface;
 
 import java.util.Vector;
 

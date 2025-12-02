@@ -6,19 +6,25 @@ import java.util.Map;
 public class _136_singleNumber {
     public static int SingleNumber(int[] nums){
         //basic brute force approach
-        Map<Integer,Integer> map=new HashMap<>();
+        // Map<Integer,Integer> map=new HashMap<>();
+        // for (int num : nums) {
+        //     map.put(num, map.getOrDefault(num, 0)+1);
+        // }
+        // for (int key : map.keySet()) {
+        //     if (map.get(key)==1) {
+        //         return key;
+        //     }
+        // }
+        // return 0;
+
+        int xor = 0;
         for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0)+1);
+            xor ^= num;
         }
-        for (int key : map.keySet()) {
-            if (map.get(key)==1) {
-                return key;
-            }
-        }
-        return 0;
+        return xor; 
     }
     public static void main(String[] args) {
-        int[] arr1 = { 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0,2,2,3 };
+        int[] arr1 = { 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0,2, };
         System.out.println("Number having single occurency :" + SingleNumber(arr1));
 
     }

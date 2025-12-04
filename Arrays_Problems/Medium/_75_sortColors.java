@@ -1,0 +1,37 @@
+package Arrays_Problems.Medium;
+
+import java.util.Arrays;
+
+public class _75_sortColors {
+
+    public static void SortColor(int[] nums) {
+
+        //basic approach
+
+        int count0 = 0, count1 = 0, count2 = 0;
+        for (int num : nums) {
+            if (num == 0)
+                count0++;
+            else if (num == 1)
+                count1++;
+            else
+                count2++;
+        }
+        int index = 0;
+        while (count0-- > 0) 
+            nums[index++] = 0;
+        while (count1-- > 0) 
+            nums[index++] = 1;
+        while (count2-- > 0) 
+            nums[index++] = 2;
+
+        //optimized approach
+        
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = { 1, 1, 0, 1, 1, 0, 1, 1, 1, 1,2,2, 0 };
+        SortColor(arr1);
+        System.out.println("Missing Number :" + Arrays.toString(arr1));
+    }
+}
